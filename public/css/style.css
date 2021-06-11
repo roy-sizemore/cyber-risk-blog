@@ -24,16 +24,16 @@ header {
 }
 
 header h1 {
-    text-shadow: 0px 1px 3px grey;
+    text-shadow: 0px 1px 4px silver;
     margin-left: 100px;
 }
 
 header h1 span {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 header nav {
-    padding: 10px;
+    padding: 12px;
     margin-right: 100px;
 }
 
@@ -64,8 +64,8 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    border-radius: 10px;
-    margin: 15px;
+    border-radius: 12px;
+    margin: 14px;
     width: 700px;
     box-shadow: 0px 0px 10px silver;
 }
@@ -80,9 +80,8 @@ main {
     border-bottom: 1px slategrey solid;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* margin: 0; */
+    padding-left: 21px;
+    padding-right: 21px;
 }
 
 .card-header a {
@@ -100,8 +99,8 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     border: 1px slategrey solid;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
     padding: 10px;
 }
 
@@ -109,20 +108,20 @@ main {
     margin-top: 15px;
     width: 100px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .card-body span {
     font-size: 12px;
 }
 
-.dashboard-card {
+.post-card {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 11px;
     background-color: olive;
     padding: 15px;
     color: black;
@@ -131,7 +130,7 @@ main {
     width: 100%;
 }
 
-.dashboard-card:hover {
+.post-card:hover {
     color: rosybrown;
 }
 
@@ -139,12 +138,12 @@ main {
     background-color: plum;
     padding: 7px;
     border: 2px black solid;
-    border-radius: 10px;
+    border-radius: 11px;
     color: black;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 21px;
     letter-spacing: 1px;
 }
 
@@ -189,7 +188,6 @@ main {
 
 @media only screen and (max-width: 430px) {
     .dashboard-card {
-        /* width: 250px; */
         flex-direction: column;
     }
 
