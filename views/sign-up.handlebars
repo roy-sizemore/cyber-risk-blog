@@ -1,8 +1,21 @@
-<div class="posts list-group">
-  {{#each posts}}
-    <a class="list-item flex-row justify-space-between" href="/dashboard/edit/{{id}}">
-      <span>{{title}}</span>
-      <span>{{format_date createdAt}}</span>
-    </a>
-  {{/each}}
+<div class="card">
+  <div class="card-header">
+    <h2>Sign Up</h2>
+  </div>
+  <div id="signup" role="tabpanel">
+    <form id="signup-form" class="card-body">
+      <div>
+        <label for="username-input-signup">Username</label>
+        <input type="text" id="username-input-signup" />
+      </div>
+      <div>
+        <label for="password-input-signup">Password</label>
+        <input type="password" id="password-input-signup" />
+      </div>
+      <button type="submit" id="signup-btn" class="btn" >Signup!</button>
+      <a href="/login">Login instead</a>
+    </form>
+  </div>
 </div>
+
+<script src="/js/signup.js"></script>
