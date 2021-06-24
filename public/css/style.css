@@ -1,9 +1,11 @@
+/* CSS adapted from activity */
+
 :root {
-  --primary: #ccdad1;
-  --secondary: #9caea9;
-  --tertiary: #788585;
-  --light-dark: #6f6866;
-  --dark: #38302e;
+  --primary: aliceblue;
+  --secondary: cornflowerblue;
+  --tertiary: steelblue;
+  --light-dark: slategrey;
+  --dark: darkslateblue;
   --border-radius: 0.3rem;
 }
 
@@ -15,7 +17,7 @@ body {
   background-color: var(--primary);
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: monospace;
   color: var(--dark);
   line-height: 1.5;
   font-size: 16px;
@@ -166,7 +168,6 @@ input {
   text-decoration: none;
 }
 
-/* CARDS */
 .card {
   margin: 0 0 20px 0;
   border: 3px solid var(--dark);
@@ -184,7 +185,6 @@ input {
   padding: 1%;
 }
 
-/* FORM */
 .form-label,
 .form-input,
 .form-textarea {
@@ -205,7 +205,6 @@ input {
   border-radius: var(--border-radius);
 }
 
-/* HEIGHT / WIDTH UTILS */
 .min-100-vh {
   min-height: 100vh;
 }
@@ -214,12 +213,10 @@ input {
   min-width: 100vw;
 }
 
-/* FONT UTILS */
 .text-uppercase {
   text-transform: uppercase;
 }
 
-/* FLEX CONTENT */
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -366,7 +363,6 @@ input {
   }
 }
 
-/* col-md */
 @media screen and (min-width: 768px) {
   .col-md-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -417,7 +413,6 @@ input {
   }
 }
 
-/* col-lg */
 @media screen and (min-width: 992px) {
   .col-lg-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -468,7 +463,6 @@ input {
   }
 }
 
-/* col-xl */
 @media screen and (min-width: 1200px) {
   .col-xl-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);

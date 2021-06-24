@@ -32,7 +32,7 @@ router.get('/post/:id', async (req, res) => {
     if (postData) {
       const post = postData.get({ plain: true });
 
-      res.render('post', { post });
+      res.render('view', { post });
     } else {
       res.status(404).end();
     }
