@@ -62,8 +62,8 @@ p {
 
 input {
     width: 100%;
-    border: 1px solid grey;
-    background: white;
+    border: 1px solid gainsboro;
+    background: seashell;
     margin: 0 0 5px;
     padding: 10px;
 }
