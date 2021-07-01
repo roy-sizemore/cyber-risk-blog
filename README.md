@@ -20,11 +20,9 @@
   
   To install **Cyber/Risk Blog**, run the following command(s):
   
-  "npm install"
+  No installation necessary. Visit: https://dudley-syrup-49400.herokuapp.com/ to use the app
   
   ## **Licensing** (if available)
-  
-  "npm start"
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
